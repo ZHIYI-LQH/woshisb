@@ -1,0 +1,29 @@
+{
+  "name": "❤️ 墨刀",
+  "description": "专业且易懂的在线产品原型设计与协作平台，让你轻松导入Sketch设计稿做交互，支持自动标注、切图、代码。",
+  "icon": "icon.png",
+  "author": "",
+  "authorEmail": "support@mockingbot.com",
+  "homepage": "https://mockingbot.com",
+  "version": "3.0.2",
+  "updateURL": "https://mockingbot.com/sketch/latest",
+  "appcast": "https://modao.cc/appcast.xml",
+  "identifier": "com.MockingBot.MockingBotSketch",
+  "compatibleVersion": "47",
+  "bundleVersion": "1",
+  "disableCocoaScriptPreprocessor": false,
+  "commands": [
+    {
+      "script": "plugin.js",
+      "handler": "openWindow",
+      "shortcut": "cmd shift y",
+      "name": "导入到墨刀",
+      "identifier": "openWindow"
+    }
+  ],
+  "menu": {
+    "items": [
+      "openWindow"
+    ]
+  }
+}
